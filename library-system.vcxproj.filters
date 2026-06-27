@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="css">
+      <UniqueIdentifier>{c066fca7-786b-4a7d-973b-c9440dc365bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="js">
+      <UniqueIdentifier>{d92802a9-e101-46ba-a4d2-e6b1d4c541df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images">
+      <UniqueIdentifier>{63dc5280-53e4-4358-bff1-dda039bed3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="index.html" />
+    <None Include="register.html" />
+    <None Include="dashboard.html" />
+    <None Include="books.html" />
+    <None Include="borrow.html" />
+    <None Include="categories.html" />
+    <None Include="profile.html" />
+    <None Include="style.css">
+      <Filter>css</Filter>
+    </None>
+    <None Include="login.js">
+      <Filter>js</Filter>
+    </None>
+    <None Include="chart.js">
+      <Filter>js</Filter>
+    </None>
+    <None Include="library_system.sql">
+      <Filter>database</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="banner.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="library.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="logo.png">
+      <Filter>images</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
