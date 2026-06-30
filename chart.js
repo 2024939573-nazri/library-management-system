@@ -19,14 +19,21 @@ new Chart(ctx, {
                 '#ffc107',
                 '#dc3545',
                 '#6f42c1'
-            ]
+            ],
+            borderWidth: 1
         }]
     },
     options: {
         responsive: true,
-        plugins: {
-            legend: {
-                display: true
+
+        animation: {
+            duration: 2500,
+            easing: 'easeOutBounce'
+        },
+
+        scales: {
+            y: {
+                beginAtZero: true
             }
         }
     }
